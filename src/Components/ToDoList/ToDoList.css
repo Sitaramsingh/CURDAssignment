@@ -1,0 +1,31 @@
+.todotable td{
+    min-width: 100px;
+    font-size: 25px;
+    text-align: center;  
+}
+.todotable1 td{
+    min-width: 100px;
+    font-size: 25px;
+    text-align: center;  
+}
+.todotable {    
+    background-color:#f1f1f1;
+}
+.btnContainer{
+    padding-bottom: 10px;
+}
+.todotable th{
+    min-width: 200px;
+    color: red;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.todotable1{
+    background-color:#f1f1f1;    
+}
+.todotable1 th {
+    min-width: 180px;
+    color: green;
+    font-size: 15px;
+    padding-left: 5px;
+}

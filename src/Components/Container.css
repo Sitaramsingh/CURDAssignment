@@ -1,0 +1,23 @@
+.todoCont{
+    max-width: 400px;
+    min-width: 400px;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+.container{
+    /* display: flex; */
+    border: 1px solid;
+    max-width: 600px !important;
+}
+.todoListCont{
+    max-width: 500px;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+h1{
+    text-align: center;
+}

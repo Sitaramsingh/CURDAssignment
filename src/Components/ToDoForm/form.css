@@ -1,0 +1,31 @@
+.formClass{
+    /* max-width: 400px; */
+    /* margin: 43px; */
+    padding: 20px;
+}
+.btnFlex{
+    display: flex;
+}
+ .btnFlex div{
+    margin-right: auto;
+ }
+ .inputStyle{
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px;
+  }
+  .ml15{
+    margin-left: 15px;
+  }
+
+.borderStyle1{
+    border: 2px solid red;
+}
+.borderStyle2{
+    border: 2px solid #ccc;
+}
