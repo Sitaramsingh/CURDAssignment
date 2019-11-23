@@ -42,10 +42,7 @@ export class ContainerComponent extends Component {
         this.setState({desc: ''});
     }
     editSubmit(id, desc){
-      debugger
-      if(desc !== ''){
         this.props.updateAction({id, desc})
-      }
     }
     deleteToDo(id){
       this.props.deleteAction(id)
@@ -53,7 +50,6 @@ export class ContainerComponent extends Component {
 
     render() {
         const todoList = this.props.todoList.createReducer
-        // debugger
         const todoListComponent = todoList.map((item,index) => (
             <ToDoList
               key={index}

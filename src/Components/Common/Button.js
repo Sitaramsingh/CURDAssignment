@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from 'react-bootstrap';
 
 function button(props) {
-    debugger
+    // debugger
     return (
         <div>
             <Button 

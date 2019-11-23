@@ -14,8 +14,12 @@ export class CreateToDo extends Component {
                 <div className='formClass'>
                     <form className="btnFlex">
                         <input className={error ? "inputStyle borderStyle1" : "inputStyle borderStyle2"}
-                        value={value} 
-                        type="text" name="desc" onChange={onHandleChange} placeholder="Add ToDo" />
+                            value={value} 
+                            type="text" 
+                            name="desc" 
+                            onChange={onHandleChange} 
+                            placeholder="Add ToDo" 
+                        />
                         <div className="ml15">
                             <Button 
                                 btnStyle={'primary'} 

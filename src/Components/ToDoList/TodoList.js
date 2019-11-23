@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-// import { connect } from 'react-redux';
 
 import Button from  '../Common/Button';
 import './ToDoList.css';
@@ -71,7 +70,6 @@ export class TodoList extends Component {
       }
     render() {
         const { desc } = this.props.listData;
-        debugger
         return (
             this.state.isEdit === true ? (
             <div>
@@ -114,11 +112,4 @@ export class TodoList extends Component {
         )
     }
 }
-
-// const mapStateToProps = (state) => {
-//     return {
-//       todoList : state
-//     }
-//   }
-// export default connect(mapStateToProps, null)(TodoList)
 export default TodoList;
